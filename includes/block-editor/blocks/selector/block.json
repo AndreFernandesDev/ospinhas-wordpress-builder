@@ -1,0 +1,39 @@
+{
+	"apiVersion": 2,
+	"name": "ospinhas/selector",
+	"version": "0.1.0",
+	"title": "Container Selector",
+	"category": "widgets",
+	"description": "",
+	"supports": {
+		"html": false,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": true,
+			"gradients": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"attributes": {
+		"template": {
+			"type": "array",
+			"default": []
+		},
+		"justifyContent": {
+			"type": "string",
+			"default": "center"
+		},
+		"alignContent": {
+			"type": "string",
+			"default": "stretch"
+		}
+	},
+	"textdomain": "create-block",
+	"editorScript": "file:../../../../build/selector.js",
+	"editorStyle": "file:../../../../build/selector.css",
+	"style": "file:../../../../build/style-selector.css"
+}

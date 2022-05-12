@@ -1,0 +1,59 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/call",
+	"version": "0.1.0",
+	"title": "call",
+	"category": "widgets",
+	"description": "",
+	"supports": {
+		"html": false,
+		"align": true,
+		"alignWide": true,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": true,
+			"gradients": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		}
+	},
+	"attributes": {
+		"template": {
+			"type": "string",
+			"default": "one"
+		},
+		"heading": {
+			"type": "string",
+			"source": "text",
+			"selector": "h1"
+		},
+		"subHeading": {
+			"type": "string",
+			"source": "text",
+			"selector": "h2"
+		},
+		"buttonText": {
+			"type": "string",
+			"source": "text",
+			"selector": "button"
+		}
+	},
+	"example": {
+		"attributes": {
+			"heading": "Your Heading Goes Here",
+			"subHeading": "Why I should click the Button",
+			"buttonText": "Let's talk"
+		}
+	},
+	"textdomain": "create-block",
+	"editorScript": "file:../../../../build/call.js",
+	"editorStyle": "file:../../../../build/call.css",
+	"style": "file:../../../../build/style-call.css"
+}

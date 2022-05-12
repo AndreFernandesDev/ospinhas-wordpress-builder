@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+
+.ospinhas-heading-medium {
+	font-family: "Koulen", cursive !important;
+	// color: #000;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 48px !important;
+}
+
+.ospinhas-heading-small {
+	font-family: "Koulen", cursive !important;
+	// color: #000;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 22px !important;
+}
+
+.ospinhas-button {
+	font-family: "Koulen", cursive !important;
+	// background-color: #000 !important;
+	// color: #fff !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 18px !important;
+	margin-top: 30px !important;
+}
+
+.ospinhas-button > div {
+	// background-color: #000 !important;
+	// color: #fff !important;
+}

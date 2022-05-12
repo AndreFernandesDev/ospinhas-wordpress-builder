@@ -1,0 +1,25 @@
+{
+	"apiVersion": 2,
+	"name": "ospinhas/container",
+	"version": "0.1.0",
+	"title": "Container",
+	"category": "widgets",
+	"description": "",
+	"supports": {
+		"html": false,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": true,
+			"gradients": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"textdomain": "create-block",
+	"editorScript": "file:../../../../build/container.js",
+	"editorStyle": "file:../../../../build/container.css",
+	"style": "file:../../../../build/style-container.css"
+}
